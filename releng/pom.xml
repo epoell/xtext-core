@@ -167,6 +167,7 @@
 	</modules>
 
 	<build>
+		<defaultGoal>verify</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
