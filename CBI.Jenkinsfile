@@ -5,7 +5,8 @@ pipeline {
     buildDiscarder(logRotator(numToKeepStr:'15'))
   }
 
-  tools { 
+  tools {
+    // see https://wiki.eclipse.org/Jenkins#Jenkins_configuration_and_tools_.28clustered_infra.29
     maven 'apache-maven-latest'
     jdk 'oracle-jdk8-latest'
   }
